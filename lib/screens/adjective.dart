@@ -41,7 +41,7 @@ class _AdjectiveState extends State<Adjective> with TickerProviderStateMixin {
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
