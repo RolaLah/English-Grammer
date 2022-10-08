@@ -41,7 +41,7 @@ class _PastState extends State<Past> with TickerProviderStateMixin {
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
