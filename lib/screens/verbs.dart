@@ -41,7 +41,7 @@ class _VerbsState extends State<Verbs> with TickerProviderStateMixin {
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
