@@ -39,7 +39,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
             )
           ],
         ),
-        drawer: const Drawer(),
+        drawer: DrawerScreen(),
         body: ListView(
           children: [
             const SizedBox(
