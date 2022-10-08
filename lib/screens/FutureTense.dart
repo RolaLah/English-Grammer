@@ -42,7 +42,7 @@ class _FutureTenseState extends State<FutureTense>
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
