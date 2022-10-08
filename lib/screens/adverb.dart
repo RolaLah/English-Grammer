@@ -41,7 +41,7 @@ class _AdverbState extends State<Adverb> with TickerProviderStateMixin {
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
