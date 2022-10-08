@@ -41,7 +41,7 @@ class _NounState extends State<Noun> with TickerProviderStateMixin {
           )
         ],
       ),
-      drawer: Drawer(),
+      drawer: DrawerScreen(),
       body: ListView(
         children: [
           Container(
